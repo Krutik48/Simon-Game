@@ -15,8 +15,8 @@ $(document).keypress(function (e) {
 $("#level-title").click(function (e) {
     if (!started) {
         $("h1").text("Level " + level);
-        nextSequence();
         started = true;
+        nextSequence();
     }
 })
 
