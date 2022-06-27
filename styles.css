@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-image: url("Images/gaming2.webp");
+  background-size: cover;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.8rem;
+  margin: 12% 5% 2%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.btn {
+  margin: 10px;
+  display: inline-block;
+  height: 13vw;
+  width: 13vw;
+  min-width: 140px;
+  min-height: 140px;
+  border-radius: 4%;
+  box-shadow: 18px 18px 18px black;
+}
+
+.game-over {
+  background-image: none;
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: #0000ff;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
