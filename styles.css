@@ -1,14 +1,22 @@
+
+
 body {
   text-align: center;
   background-image: url("Images/gaming2.webp");
   background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 2.8rem;
-  margin: 12% 5% 2%;
+  line-height: 4rem;
+  margin: 12% 5% 6vh;
   color: #FEF2BF;
+  cursor: pointer;
 }
 
 .container {
@@ -20,8 +28,8 @@ body {
 .btn {
   margin: 10px;
   display: inline-block;
-  height: 13vw;
-  width: 13vw;
+  height: 13vh;
+  width: 13vh;
   min-width: 140px;
   min-height: 140px;
   border-radius: 4%;
